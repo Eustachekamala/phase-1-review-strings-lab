@@ -1,8 +1,8 @@
 // Write your code in this file!
 let currentUser = 'Grace Hopper';
 
-let welcomeMessage = currentUser + 'Welcome to Flatbook, !'
+let welcomeMessage = `Welcome to Flatbook, ${currentUser}!`
 
-let excitedWelcomeMessage = welcomeMessage.toUpperCase()+', '+ currentUser+'!';
+let excitedWelcomeMessage = `${welcomeMessage.toUpperCase()}, ${currentUser}!`;
 
-let shortGreeting = 'Welcome, '+ 'Grace!';
+let shortGreeting = `Welcome, ${currentUser.slice(0,4)}!`;
